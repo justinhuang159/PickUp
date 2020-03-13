@@ -15,6 +15,7 @@
 		3D46D9E92405DB5F00F54B7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D46D9E72405DB5F00F54B7A /* LaunchScreen.storyboard */; };
 		3D46D9F42405DB5F00F54B7A /* PickUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46D9F32405DB5F00F54B7A /* PickUpTests.swift */; };
 		3D46D9FF2405DB5F00F54B7A /* PickUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46D9FE2405DB5F00F54B7A /* PickUpUITests.swift */; };
+		3D82E079241B2BB600938AAE /* kobe-bryant-25_90c654e1b5a55a018e3599e2fd57f29d_raw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D82E078241B2BB600938AAE /* kobe-bryant-25_90c654e1b5a55a018e3599e2fd57f29d_raw.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3D46D9FA2405DB5F00F54B7A /* PickUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D46D9FE2405DB5F00F54B7A /* PickUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpUITests.swift; sourceTree = "<group>"; };
 		3D46DA002405DB5F00F54B7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D82E078241B2BB600938AAE /* kobe-bryant-25_90c654e1b5a55a018e3599e2fd57f29d_raw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kobe-bryant-25_90c654e1b5a55a018e3599e2fd57f29d_raw.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				3D46D9E22405DB5800F54B7A /* Main.storyboard */,
 				3D46D9E52405DB5F00F54B7A /* Assets.xcassets */,
 				3D46D9E72405DB5F00F54B7A /* LaunchScreen.storyboard */,
+				3D82E078241B2BB600938AAE /* kobe-bryant-25_90c654e1b5a55a018e3599e2fd57f29d_raw.jpg */,
 				3D46D9EA2405DB5F00F54B7A /* Info.plist */,
 			);
 			path = PickUp;
@@ -234,6 +237,7 @@
 			files = (
 				3D46D9E92405DB5F00F54B7A /* LaunchScreen.storyboard in Resources */,
 				3D46D9E62405DB5F00F54B7A /* Assets.xcassets in Resources */,
+				3D82E079241B2BB600938AAE /* kobe-bryant-25_90c654e1b5a55a018e3599e2fd57f29d_raw.jpg in Resources */,
 				3D46D9E42405DB5800F54B7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

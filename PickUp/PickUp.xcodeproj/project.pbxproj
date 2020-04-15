@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D15B5802446CEC300705AE5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15B57F2446CEC300705AE5 /* MapViewController.swift */; };
 		3D46D9DD2405DB5800F54B7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46D9DC2405DB5800F54B7A /* AppDelegate.swift */; };
 		3D46D9DF2405DB5800F54B7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46D9DE2405DB5800F54B7A /* SceneDelegate.swift */; };
 		3D46D9E12405DB5800F54B7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D46D9E02405DB5800F54B7A /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D15B57F2446CEC300705AE5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		3D46D9D92405DB5800F54B7A /* PickUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D46D9DC2405DB5800F54B7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D46D9DE2405DB5800F54B7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				3D46D9E72405DB5F00F54B7A /* LaunchScreen.storyboard */,
 				3D82E078241B2BB600938AAE /* kobe-bryant-25_90c654e1b5a55a018e3599e2fd57f29d_raw.jpg */,
 				3D46D9EA2405DB5F00F54B7A /* Info.plist */,
+				3D15B57F2446CEC300705AE5 /* MapViewController.swift */,
 			);
 			path = PickUp;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				3D46D9E12405DB5800F54B7A /* ViewController.swift in Sources */,
 				3D46D9DD2405DB5800F54B7A /* AppDelegate.swift in Sources */,
 				3D46D9DF2405DB5800F54B7A /* SceneDelegate.swift in Sources */,
+				3D15B5802446CEC300705AE5 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

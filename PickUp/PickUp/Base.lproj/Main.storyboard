@@ -26,6 +26,9 @@
                                 <rect key="frame" x="85" y="686" width="244" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="SMSLoginButton"/>
+                                <connections>
+                                    <segue destination="H2w-V7-XYf" kind="show" identifier="toMain" id="Gl2-uW-Tk5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
@@ -36,20 +39,35 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
         </scene>
-        <!--View Controller-->
+        <!--Map View Controller-->
         <scene sceneID="s84-yl-QlL">
             <objects>
-                <viewController id="H2w-V7-XYf" sceneMemberID="viewController">
+                <viewController id="H2w-V7-XYf" customClass="MapViewController" customModule="PickUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vIH-EE-iM5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tpa-yi-Z8m">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tpa-yi-Z8m" firstAttribute="trailing" secondItem="i6x-Hj-uvo" secondAttribute="trailing" id="Idb-OP-vDs"/>
+                            <constraint firstItem="tpa-yi-Z8m" firstAttribute="top" secondItem="i6x-Hj-uvo" secondAttribute="top" id="Qw7-7L-U19"/>
+                            <constraint firstItem="tpa-yi-Z8m" firstAttribute="leading" secondItem="i6x-Hj-uvo" secondAttribute="leading" id="V5Q-v3-Wig"/>
+                            <constraint firstItem="tpa-yi-Z8m" firstAttribute="bottom" secondItem="i6x-Hj-uvo" secondAttribute="bottom" id="qQm-P0-LoN"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="i6x-Hj-uvo"/>
                     </view>
+                    <navigationItem key="navigationItem" id="887-Hy-MPD"/>
+                    <connections>
+                        <outlet property="MKMapView" destination="tpa-yi-Z8m" id="OIL-Nb-uDd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wXR-B3-Zub" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1092" y="117"/>
+            <point key="canvasLocation" x="1091.304347826087" y="116.51785714285714"/>
         </scene>
     </scenes>
     <resources>

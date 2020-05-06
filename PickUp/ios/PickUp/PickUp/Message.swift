@@ -23,6 +23,10 @@ class Message: UIViewController {
     @IBAction func sendButton(_ sender: Any) {
         var m = message.text!
         messageText.text = m
+        messageText.layer.backgroundColor = UIColor.blue.cgColor
+        messageText.layer.cornerRadius = 7
+        messageText.layer.masksToBounds = true
+        messageText.sizeToFit()
         message.text = ""
         
     }

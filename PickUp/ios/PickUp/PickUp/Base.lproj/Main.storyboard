@@ -1011,7 +1011,7 @@ to set you up
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6Y-Oc-1R9">
                                 <rect key="frame" x="16" y="127" width="343" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dLE-E1-WZ1">
@@ -1209,10 +1209,10 @@ to set you up
             </objects>
             <point key="canvasLocation" x="5175" y="618"/>
         </scene>
-        <!--Map-->
+        <!--Map View-->
         <scene sceneID="lzN-eH-os8">
             <objects>
-                <viewController id="6Sz-0s-MMB" customClass="MainView1" customModule="PickUp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6Sz-0s-MMB" customClass="MapView" customModule="PickUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p5T-B8-iiZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1233,15 +1233,21 @@ to set you up
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="GFf-UE-b5E"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="pano.fill" catalog="system" id="RPa-m5-hlf"/>
+                    <navigationItem key="navigationItem" id="4VE-wC-Ods">
+                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="ArS-B0-3q8">
+                            <connections>
+                                <action selector="searchButton:" destination="6Sz-0s-MMB" id="wHu-kD-VxY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="mapView" destination="g6o-kV-e9Y" id="NtM-Su-0lb"/>
+                        <outlet property="myMapView" destination="g6o-kV-e9Y" id="Pak-3W-BB1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cd4-Hn-4Sx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7167.1999999999998" y="655.32233883058473"/>
+            <point key="canvasLocation" x="8106.3999999999996" y="655.32233883058473"/>
         </scene>
         <!--Location Search Table-->
         <scene sceneID="1c1-hQ-3TX">
@@ -1285,7 +1291,7 @@ to set you up
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1hX-5C-YSK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7980" y="654.42278860569718"/>
+            <point key="canvasLocation" x="8919.2000000000007" y="654.42278860569718"/>
         </scene>
         <!--Tab-->
         <scene sceneID="1UH-M3-mRK">
@@ -1300,7 +1306,7 @@ to set you up
                     <connections>
                         <segue destination="Cmr-B2-Kc8" kind="relationship" relationship="viewControllers" id="O18-yp-KdM"/>
                         <segue destination="erN-b2-bEf" kind="relationship" relationship="viewControllers" id="DOW-UG-sop"/>
-                        <segue destination="6Sz-0s-MMB" kind="relationship" relationship="viewControllers" id="1Gf-Kk-0iS"/>
+                        <segue destination="4Nx-Ne-PLg" kind="relationship" relationship="viewControllers" id="1Gf-Kk-0iS"/>
                         <segue destination="4wt-nh-E8t" kind="relationship" relationship="viewControllers" id="gT7-tn-Hqh"/>
                     </connections>
                 </tabBarController>
@@ -1884,6 +1890,25 @@ to set you up
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XQa-nC-sL3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7093.6000000000004" y="-104.7976011994003"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="d20-aC-w1O">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Nx-Ne-PLg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="pano.fill" catalog="system" id="RPa-m5-hlf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tqj-Kp-KTg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6Sz-0s-MMB" kind="relationship" relationship="rootViewController" id="uZE-0U-b9N"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wCq-tN-GVf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7167.1999999999998" y="655.32233883058473"/>
         </scene>
     </scenes>
     <resources>

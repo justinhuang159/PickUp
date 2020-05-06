@@ -20,7 +20,6 @@
 		3D0F9B1D2217B96B007063CA /* pSignIn1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B1C2217B96B007063CA /* pSignIn1.swift */; };
 		3D0F9B1F2217BA66007063CA /* pSignIn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B1E2217BA66007063CA /* pSignIn2.swift */; };
 		3D0F9B2C2218C12C007063CA /* OBView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B2B2218C12C007063CA /* OBView2.swift */; };
-		3D0F9B2E2218C9DA007063CA /* MainView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B2D2218C9DA007063CA /* MainView1.swift */; };
 		3D0F9B302218CCEE007063CA /* locationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B2F2218CCEE007063CA /* locationSearchTable.swift */; };
 		3D0F9B322218E0E0007063CA /* userBookingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B312218E0E0007063CA /* userBookingsController.swift */; };
 		3D0F9B342218E163007063CA /* Available.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B332218E163007063CA /* Available.swift */; };
@@ -33,6 +32,7 @@
 		3D0F9B4622197077007063CA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B4522197077007063CA /* DetailsViewController.swift */; };
 		3D15B5822460EDA500705AE5 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15B5812460EDA500705AE5 /* FriendsViewController.swift */; };
 		3D15B58424627C6F00705AE5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15B58324627C6F00705AE5 /* Message.swift */; };
+		3D15B58624634FCE00705AE5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15B58524634FCE00705AE5 /* MapView.swift */; };
 		3DCF746022197D7B00DEA06D /* restaurantSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF745F22197D7B00DEA06D /* restaurantSignUp.swift */; };
 		3DCF74622219802600DEA06D /* rSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF74612219802600DEA06D /* rSettingsViewController.swift */; };
 		3DCF7464221982D500DEA06D /* HomeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF7463221982D500DEA06D /* HomeView2.swift */; };
@@ -84,7 +84,6 @@
 		3D0F9B1C2217B96B007063CA /* pSignIn1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pSignIn1.swift; sourceTree = "<group>"; };
 		3D0F9B1E2217BA66007063CA /* pSignIn2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pSignIn2.swift; sourceTree = "<group>"; };
 		3D0F9B2B2218C12C007063CA /* OBView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBView2.swift; sourceTree = "<group>"; };
-		3D0F9B2D2218C9DA007063CA /* MainView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView1.swift; sourceTree = "<group>"; };
 		3D0F9B2F2218CCEE007063CA /* locationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationSearchTable.swift; sourceTree = "<group>"; };
 		3D0F9B312218E0E0007063CA /* userBookingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userBookingsController.swift; sourceTree = "<group>"; };
 		3D0F9B332218E163007063CA /* Available.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Available.swift; sourceTree = "<group>"; };
@@ -97,6 +96,7 @@
 		3D0F9B4522197077007063CA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		3D15B5812460EDA500705AE5 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		3D15B58324627C6F00705AE5 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		3D15B58524634FCE00705AE5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		3DCF745F22197D7B00DEA06D /* restaurantSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantSignUp.swift; sourceTree = "<group>"; };
 		3DCF74612219802600DEA06D /* rSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rSettingsViewController.swift; sourceTree = "<group>"; };
 		3DCF7463221982D500DEA06D /* HomeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView2.swift; sourceTree = "<group>"; };
@@ -171,9 +171,9 @@
 				3D0F9B1C2217B96B007063CA /* pSignIn1.swift */,
 				3D0F9B1E2217BA66007063CA /* pSignIn2.swift */,
 				3D0F9B2B2218C12C007063CA /* OBView2.swift */,
-				3D0F9B2D2218C9DA007063CA /* MainView1.swift */,
 				3D0F9B2F2218CCEE007063CA /* locationSearchTable.swift */,
 				3D0F9B312218E0E0007063CA /* userBookingsController.swift */,
+				3D15B58524634FCE00705AE5 /* MapView.swift */,
 				3D0F9B332218E163007063CA /* Available.swift */,
 				3D0F9B372218E604007063CA /* StationCell.swift */,
 				3D0F9B392218EB93007063CA /* Tab.swift */,
@@ -351,12 +351,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D15B5822460EDA500705AE5 /* FriendsViewController.swift in Sources */,
+				3D15B58624634FCE00705AE5 /* MapView.swift in Sources */,
 				3DCF746022197D7B00DEA06D /* restaurantSignUp.swift in Sources */,
 				3D0F9AEB2217A3A3007063CA /* ViewController.swift in Sources */,
 				3D0F9B192217B7D4007063CA /* VerifyAPI.swift in Sources */,
 				3D0F9AE92217A3A3007063CA /* AppDelegate.swift in Sources */,
 				3D0F9B442219048A007063CA /* TableViewCell.swift in Sources */,
-				3D0F9B2E2218C9DA007063CA /* MainView1.swift in Sources */,
 				3DCF7464221982D500DEA06D /* HomeView2.swift in Sources */,
 				3D0F9B1F2217BA66007063CA /* pSignIn2.swift in Sources */,
 				3DCF746822198F6700DEA06D /* restDetails.swift in Sources */,

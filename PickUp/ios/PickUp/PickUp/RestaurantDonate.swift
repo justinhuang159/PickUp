@@ -30,13 +30,13 @@ class RestaurantDonate: UIViewController {
         dateTextField.inputView = datePicker
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toPending" {
-            let SEC: RestaurantPending  = segue.destination as! RestaurantPending
-            SEC.add(date: dateTextField.text!, pound: poundsField.text!)
-        }
-    }
-    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "toPending" {
+////            let SEC: FriendsViewController  = segue.destination as! RestaurantPending
+////            SEC.add(date: dateTextField.text!, pound: poundsField.text!)
+//        }
+//    }
+//    
 
     
     

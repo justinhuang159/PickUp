@@ -29,9 +29,10 @@
 		3D0F9B3C2218ED1B007063CA /* Tab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B3B2218ED1B007063CA /* Tab2.swift */; };
 		3D0F9B3E2218F1F8007063CA /* RestaurantLanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B3D2218F1F8007063CA /* RestaurantLanding.swift */; };
 		3D0F9B402218F277007063CA /* RestaurantDonate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B3F2218F277007063CA /* RestaurantDonate.swift */; };
-		3D0F9B422218FACC007063CA /* RestaurantPending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B412218FACC007063CA /* RestaurantPending.swift */; };
 		3D0F9B442219048A007063CA /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B432219048A007063CA /* TableViewCell.swift */; };
 		3D0F9B4622197077007063CA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0F9B4522197077007063CA /* DetailsViewController.swift */; };
+		3D15B5822460EDA500705AE5 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15B5812460EDA500705AE5 /* FriendsViewController.swift */; };
+		3D15B58424627C6F00705AE5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15B58324627C6F00705AE5 /* Message.swift */; };
 		3DCF746022197D7B00DEA06D /* restaurantSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF745F22197D7B00DEA06D /* restaurantSignUp.swift */; };
 		3DCF74622219802600DEA06D /* rSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF74612219802600DEA06D /* rSettingsViewController.swift */; };
 		3DCF7464221982D500DEA06D /* HomeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF7463221982D500DEA06D /* HomeView2.swift */; };
@@ -92,9 +93,10 @@
 		3D0F9B3B2218ED1B007063CA /* Tab2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2.swift; sourceTree = "<group>"; };
 		3D0F9B3D2218F1F8007063CA /* RestaurantLanding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantLanding.swift; sourceTree = "<group>"; };
 		3D0F9B3F2218F277007063CA /* RestaurantDonate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDonate.swift; sourceTree = "<group>"; };
-		3D0F9B412218FACC007063CA /* RestaurantPending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantPending.swift; sourceTree = "<group>"; };
 		3D0F9B432219048A007063CA /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		3D0F9B4522197077007063CA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		3D15B5812460EDA500705AE5 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		3D15B58324627C6F00705AE5 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		3DCF745F22197D7B00DEA06D /* restaurantSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = restaurantSignUp.swift; sourceTree = "<group>"; };
 		3DCF74612219802600DEA06D /* rSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rSettingsViewController.swift; sourceTree = "<group>"; };
 		3DCF7463221982D500DEA06D /* HomeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView2.swift; sourceTree = "<group>"; };
@@ -176,9 +178,9 @@
 				3D0F9B372218E604007063CA /* StationCell.swift */,
 				3D0F9B392218EB93007063CA /* Tab.swift */,
 				3D0F9B3B2218ED1B007063CA /* Tab2.swift */,
+				3D15B5812460EDA500705AE5 /* FriendsViewController.swift */,
 				3D0F9B3D2218F1F8007063CA /* RestaurantLanding.swift */,
 				3D0F9B3F2218F277007063CA /* RestaurantDonate.swift */,
-				3D0F9B412218FACC007063CA /* RestaurantPending.swift */,
 				3D0F9B432219048A007063CA /* TableViewCell.swift */,
 				3D0F9B4522197077007063CA /* DetailsViewController.swift */,
 				3DCF745F22197D7B00DEA06D /* restaurantSignUp.swift */,
@@ -193,6 +195,7 @@
 				3DCF74712219B64600DEA06D /* userReg2.swift */,
 				3DCF74732219BD2400DEA06D /* userSettings.swift */,
 				3DCF74752219BE3800DEA06D /* redeemPrizes.swift */,
+				3D15B58324627C6F00705AE5 /* Message.swift */,
 			);
 			path = Foodly;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D15B5822460EDA500705AE5 /* FriendsViewController.swift in Sources */,
 				3DCF746022197D7B00DEA06D /* restaurantSignUp.swift in Sources */,
 				3D0F9AEB2217A3A3007063CA /* ViewController.swift in Sources */,
 				3D0F9B192217B7D4007063CA /* VerifyAPI.swift in Sources */,
@@ -357,9 +361,9 @@
 				3D0F9B1F2217BA66007063CA /* pSignIn2.swift in Sources */,
 				3DCF746822198F6700DEA06D /* restDetails.swift in Sources */,
 				3D0F9B402218F277007063CA /* RestaurantDonate.swift in Sources */,
-				3D0F9B422218FACC007063CA /* RestaurantPending.swift in Sources */,
 				3DCF746E2219ADFE00DEA06D /* decisionViewController.swift in Sources */,
 				3D0F9B2C2218C12C007063CA /* OBView2.swift in Sources */,
+				3D15B58424627C6F00705AE5 /* Message.swift in Sources */,
 				3DCF74742219BD2400DEA06D /* userSettings.swift in Sources */,
 				3DCF746A2219957C00DEA06D /* navControllerViewController.swift in Sources */,
 				3DCF74762219BE3800DEA06D /* redeemPrizes.swift in Sources */,
